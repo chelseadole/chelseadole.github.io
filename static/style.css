@@ -1,0 +1,273 @@
+/*CSS credit for mobile view swiping nav bar: https://onextrapixel.com/creating-a-swipeable-side-menu-for-the-web/
+*/
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+    font-family: helvetica;
+    font-weight: 100;
+}
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -webkit-transition:  left 0.4s ease-in-out;
+    -moz-transition:  left 0.4s ease-in-out;
+    -ms-transition:  left 0.4s ease-in-out;
+    -o-transition:  left 0.4s ease-in-out;
+    transition:  left 0.4s ease-in-out;
+/*    overflow: scroll;
+*/}
+.container.open-sidebar {
+    left: 240px;
+}
+
+#sidebar {
+    background: #DF314D;
+    height: 47px;
+    width: 100%;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#sidebar ul li {
+    margin: 0;
+    display: inline-block;
+}
+#sidebar ul li a {
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    display: block;
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -ms-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;
+}
+#sidebar ul li:hover a {
+    background: #C9223D;
+}
+.main-content {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: scroll;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    overflow: scroll;
+}
+.main-content .content{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+}
+.main-content .content h1{
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20%;
+    font-weight: 340;
+    font-size: 2.5em;
+    font-family: "Homemade Apple";
+}
+.main-content .content h3{
+    font-weight: 90;
+    text-align: center;
+
+}
+.main-content .content p{
+    width: 100%;
+    line-height: 160%;
+}
+
+h2{
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+/*Styling for About page*/
+
+#profile-pic{
+    width: 16%;
+    margin-left: 42%;
+}
+
+
+#professional-about{
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+}
+
+#professional-about h3, h4{
+    font-style: italic;
+}
+
+#personal-about{
+    width: 45%;
+    float: right;
+    margin-right: 2%
+}
+
+#personal-about h3{
+    font-style: italic;
+}
+
+#front-stack{
+    width: 45%;
+    float: left;
+}
+
+#back-stack{
+    width: 45%;
+    float: left;
+    margin-left: 10%;
+}
+
+/*Styling for Footer social media links*/
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.contact-content{
+    text-align: center;
+    list-style: none;
+    margin-top: 20%;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+/*Styling for Portfolio section*/
+
+#portfolio{
+    padding-left: 2%;
+}
+
+.projectitem{
+    float: left;
+    width: 43%;
+    margin: 2% 4% 2% 1%;
+    background-color: #df314d1f;
+    border-radius: 5%;
+    padding: 1%;
+    height: 580px;
+}
+
+.proj-image{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.projectitem h3, p{
+    text-align: center;
+}
+
+.projectitem #proj-title p{
+    font-style: italic;
+}
+
+.projectitem a{
+    text-decoration: none;
+}
+
+.projectitem h3{
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.3em;
+}
+
+.projectitem h3:hover{
+    color: Grey;
+}
+
+.stack-p{
+    margin-bottom: 0%;
+}
+
+.stack-list{
+    margin-top: 1%;
+}
+
+#otherprojects{
+    width: 80%;
+    padding-left: 10%;
+}
+
+#otherheader{
+    list-style-type: none;
+}
+
+/*Styling for doggo page
+*/
+
+.doggo img{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+/*Styling for 404 and 505 pages
+*/
+
+#error{
+    text-align: center;
+}
+
+/*Style for download resume button 
+*/
+.button {
+    background: #DF314D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: auto;
+    display: block;
+}
+
+.button:hover {
+    background-color: LightGrey;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}

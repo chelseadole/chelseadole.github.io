@@ -1,0 +1,135 @@
+
+@media all and (max-width:650px){
+
+    h2{
+        padding-top: 5%;
+    }
+    #personal-about, #professional-about{
+        width: 100%;
+    }
+
+    #professional-about p{
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    #personal-about p{
+        width: 90%;
+        margin-left: 7%;
+    }
+
+    #professional-about h3{
+        width: 90%;
+        margin-left: 3%;
+    }
+    
+    .projectitem{
+        float: left;
+        width: 90%;
+        background-color: #df314d1f;
+        border-radius: 5%;
+        padding: 2%;
+        margin: 2% 4% 2% 1%;
+        height: 525px;
+    }
+
+    .proj-image{
+        width: 80%;
+    }
+
+    #profile-pic{
+        width: 60%;
+        margin-left: 20%;
+   }
+
+    .main-content .content h1{
+        padding-top: 45%;
+    }
+
+    .contact-content{
+        margin-top: 45%;
+    }
+
+    #sidebar {
+        background: #DF314D;
+        position: absolute;
+        width: 240px;
+        height: 100%;
+        left: -240px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    #sidebar ul li {
+        margin: 0;
+        display: block;
+    }
+
+    .swipe-area {
+        position: absolute;
+        width: 50px;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #f3f3f3;
+        height: 100%;
+        position: fixed;
+    }
+
+    .main-content #sidebar-toggle {
+        background: #DF314D;
+        border-radius: 3px;
+        display: block;
+        padding: 10px 7px;
+        float: left;
+        position: fixed;
+
+    }
+    .main-content #sidebar-toggle .bar{
+        display: block;
+        width: 18px;
+        margin-bottom: 3px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 1px;   
+    }
+    .main-content #sidebar-toggle .bar:last-child{
+        margin-bottom: 0;   
+    }
+
+    .container.open-sidebar.swipe-area{
+        visibility: hidden;   
+    }
+
+    h2{
+        padding-left: 5%;
+    }
+
+}
+
+@media all and (max-width:376px){
+    #front-stack, #back-stack{
+        width: 90%;
+        float: left;
+        text-align: center;
+        padding-left: 0%;
+        margin-left: 3%;
+    }
+
+    #front-stack ul, #back-stack ul{
+        list-style-type: none;
+    }
+
+    #front-stack h4, #back-stack h4{
+        padding-left: 12%;
+    }
+
+    #professional-about #back-stack ul, #professional-about #front-stack ul{
+        padding-left: 3%;
+    }
+
+    #professional-about #back-stack h4, #professional-about #front-stack h4{
+        padding-left: 2%;
+    }
+
+}
