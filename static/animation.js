@@ -1,5 +1,6 @@
 
 // All credit to: https://onextrapixel.com/creating-a-swipeable-side-menu-for-the-web/
+
 $(document).ready(function() {
   $("[data-toggle]").click(function() {
     var toggle_el = $(this).data("toggle");
