@@ -24,12 +24,11 @@
     }
     
     .projectitem{
-        float: left;
         width: 90%;
         background-color: #df314d1f;
         border-radius: 5%;
         padding: 2%;
-        margin: 2% 4% 2% 1%;
+        margin-left: 5%;
         height: 525px;
     }
 
@@ -63,6 +62,10 @@
     #sidebar ul li {
         margin: 0;
         display: block;
+    }
+
+    #portfolio {
+        padding-left: 2%;
     }
 
     .swipe-area {
