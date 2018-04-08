@@ -23,6 +23,8 @@ body, html {
     background: #DF314D;
     height: 47px;
     width: 100%;
+    position: fixed;
+    z-index: 20;
 }
 
 #sidebar ul {
@@ -88,6 +90,7 @@ body, html {
 h2{
     font-family: helvetica;
     font-weight: 500;
+    margin-top: 60px;
 }
 
 /*Styling for About page*/
