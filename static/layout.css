@@ -111,6 +111,22 @@
         padding-left: 5%;
     }
 
+    .slideshow-container, #slide-dots {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #slide-dots {
+        margin-left: 43%;
+    }
+
+    #dance-map {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3%;
+        height: 400px;
+    }
+
 }
 
 @media all and (max-width:376px){
