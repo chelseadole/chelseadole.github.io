@@ -274,9 +274,8 @@ a {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 43%;
-  position: relative;
-  margin-left: 3%;
+    position: relative;
+    margin-left: 3%;
 
 }
 
@@ -289,7 +288,7 @@ a {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 70%;
+  top: 50%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -367,5 +366,19 @@ a {
 
 #slide-dots {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 43%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+#dance-map {
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
 }

@@ -111,6 +111,15 @@
         padding-left: 5%;
     }
 
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 100%;
+        width: 100%;
+    }
+
     .slideshow-container, #slide-dots {
         margin: 0 auto;
         width: 90%;
