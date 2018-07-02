@@ -1,4 +1,12 @@
 
+@media all and (min-width:650px){
+
+    .last-projectitem{
+        margin-left: 28%;
+    }
+
+}
+
 @media all and (max-width:650px){
 
     h2{
