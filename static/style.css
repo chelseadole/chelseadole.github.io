@@ -194,6 +194,14 @@ h2{
     width: 100px;
 }
 
+.github-link{
+    margin-left: 25%;
+}
+
+.github-logo{
+    width: 8%;
+}
+
 .proj-image{
     width: 80%;
     margin-left: 10%;
