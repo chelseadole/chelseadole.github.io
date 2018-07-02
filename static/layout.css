@@ -2,6 +2,12 @@
 @media all and (min-width:650px){
 
     .last-projectitem{
+        width: 90%;
+        background-color: #df314d1f;
+        border-radius: 5%;
+        padding: 2%;
+        margin-left: 5%;
+        height: 525px;
         margin-left: 28%;
     }
 
