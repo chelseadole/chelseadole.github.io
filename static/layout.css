@@ -8,6 +8,12 @@
 
 }
 
+@media all and (min-width : 1400px) {
+    .projectitem {
+        height: 625px;
+    }
+}
+
 @media all and (max-width:650px){
 
     h2{
@@ -38,7 +44,7 @@
         border-radius: 5%;
         padding: 2%;
         margin-left: 5%;
-        height: 525px;
+        height: 100%;
     }
 
     .proj-image{
@@ -159,7 +165,7 @@
         width: 90%;
         float: left;
         text-align: center;
-        padding-left: 0%;
+        padding-left: 0;
         margin-left: 3%;
     }
 

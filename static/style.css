@@ -177,13 +177,7 @@ h2{
     background-color: #df314d1f;
     border-radius: 5%;
     padding: 1%;
-    height: 580px;
-}
-
-@media only screen and (min-width : 1400px) {
-    .projectitem {
-        height: 625px;
-    }
+    height: 590px;
 }
 
 .last-projectitem{
@@ -192,7 +186,7 @@ h2{
     background-color: #df314d1f;
     border-radius: 5%;
     padding: 1%;
-    height: 580px;
+    height: 590px;
 }
 
 .github-div{
