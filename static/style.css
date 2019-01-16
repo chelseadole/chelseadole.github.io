@@ -180,6 +180,12 @@ h2{
     height: 580px;
 }
 
+@media only screen and (min-width : 1025px) {
+    .projectitem {
+        height: 625px;
+    }
+}
+
 .last-projectitem{
     float: left;
     margin: 2% 4% 2% 3%;
