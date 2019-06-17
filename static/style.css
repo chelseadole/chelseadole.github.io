@@ -124,19 +124,19 @@ h2{
 #other{
     width: 45%;
     float: left;
-    font-family: "Courier Header"
-}
-
-#sub-title-1{
-    font-family: "Courier Header"
-    font-style: bold;
+    font-family: "Courier";
 }
 
 #languages-frameworks{
     width: 45%;
     float: left;
     margin-left: 10%;
-    font-family: "Courier"
+    font-family: "Courier";
+}
+
+#sub-title-1{
+    font-family: "Courier";
+    font-style: bold;
 }
 
 /*Styling for Footer social media links*/
