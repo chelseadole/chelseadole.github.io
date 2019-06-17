@@ -161,7 +161,7 @@
 }
 
 @media all and (max-width:376px){
-    #front-stack, #back-stack{
+    #other, #languages-frameworks{
         width: 90%;
         float: left;
         text-align: center;
@@ -169,19 +169,19 @@
         margin-left: 3%;
     }
 
-    #front-stack ul, #back-stack ul{
+    #other ul, #languages-frameworks ul{
         list-style-type: none;
     }
 
-    #front-stack h4, #back-stack h4{
+    #other h4, #langauges-frameworks h4{
         padding-left: 12%;
     }
 
-    #professional-about #back-stack ul, #professional-about #front-stack ul{
+    #professional-about #languages-frameworks ul, #professional-about #other ul{
         padding-left: 3%;
     }
 
-    #professional-about #back-stack h4, #professional-about #front-stack h4{
+    #professional-about #languages-frameworks h4, #professional-about #other h4{
         padding-left: 2%;
     }
 
