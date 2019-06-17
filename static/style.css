@@ -124,7 +124,12 @@ h2{
 #other{
     width: 45%;
     float: left;
-    font-family: "Courier"
+    font-family: "Courier Header"
+}
+
+#sub-title-1{
+    font-family: "Courier Header"
+    font-style: bold;
 }
 
 #languages-frameworks{
