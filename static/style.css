@@ -124,14 +124,14 @@ h2{
 #other{
     width: 45%;
     float: left;
-    font-family: "Inconsolata"
+    font-family: "Courier"
 }
 
 #languages-frameworks{
     width: 45%;
     float: left;
     margin-left: 10%;
-    font-family: "Inconsolata"
+    font-family: "Courier"
 }
 
 /*Styling for Footer social media links*/
